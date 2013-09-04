@@ -1,0 +1,26 @@
+export ZSH=$HOME/.oh-my-zsh
+export ZSH_THEME="nativeas"
+
+
+
+#Alias command-------------------------------------------
+alias zshconfig="subl ~/.zshrc"
+alias ohmyzsh="subl ~/.oh-my-zsh"
+alias o="open"
+alias oo="open ."
+alias g='git'
+alias c="clear"
+alias h="heroku"
+plugins=(git)
+
+source $ZSH/oh-my-zsh.sh
+
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+
+### Added for npm/nodejs
+export PATH="/usr/local/share/npm/bin:$PATH"
+
+FLEX_HOME="/Applications/Adobe Flash Builder 4.6/sdks/4.6.0"
+export FLEX_HOME
